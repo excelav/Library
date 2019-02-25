@@ -1,21 +1,33 @@
-# book
+# Library  #
+Vue构建的图书管理系统
 
-> A Vue.js project
+### [项目线上预览地址](https://excelav.github.io/#/) ###
 
-## Build Setup
+用于个人图书管理，记录图书位置，及其他信息，数据使用indexedDB存储。
 
-``` bash
-# install dependencies
-npm install
+在项目中主要使用：
+- Vue
+- element-ui 
+- IndexedDB
+- Jsonp
+- Vuex
+- Vue router
+- Stylus
 
-# serve with hot reload at localhost:8080
-npm run dev
+## 项目构成 ##
 
-# build for production with minification
-npm run build
+- 图书列表
+- 图书查询，删除
+- 提交表单添加图书
+- 通过isbn网络查书，添加
 
-# build for production and view the bundle analyzer report
-npm run build --report
-```
+## 项目部分截图 ##
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+![](./images/bookList.png)
+
+![](./images/bookSearch.png)
+
+![](./images/bookForm.png)
+
+![](./images/isbnSearch.png)
+
